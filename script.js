@@ -126,7 +126,7 @@ nextButton.style.display="block"; //yanlış veya doğru başka butona basmayı 
 
 function showScore(){
   resetState();
-  questionElement.innerHTML = `'You Scored ${score} out of ${questions.length}!`;
+  questionElement.innerHTML = `You Scored ${score} out of ${questions.length}!`;
   nextButton.innerHTML="Restart";
   nextButton.style.display="block";
   }
