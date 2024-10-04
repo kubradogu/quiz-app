@@ -53,10 +53,11 @@ let currentQuestionIndex = 0;
 let score = 0;
 
 function startQuiz() {
-currentQuestionIndex=0;
-score=0;
+currentQuestionIndex=0;  // Sıfırıncı sorudan başlayacağımızı belirliyoruz.
+score=0;  // Kullanıcının puanını sıfırlıyoruz.
 nextButton.innerHTML = "Next";
-showQuestion();
+showQuestion(); // İlk soruyu göstermek için showQuestion fonksiyonunu çağırıyoruz.
+}
 
 }
 
